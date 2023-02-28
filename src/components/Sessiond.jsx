@@ -3,9 +3,16 @@ import laptop from '../assets/development-4536630_1920.png'
 
 const Sessiond = () => {
   return (
-    <div className='bg-white w-full h-96 py-24 px-4'>
-        <div className='max-w-[1240px] mx-auto md:grid-col-2'>
-            <img src={laptop} alt="/" className='h-24'/> 
+    <div className='w-full bg-white py-16 px-4'>
+        <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
+            <img className='w-[250px] mx-auto my-4' src={laptop} alt="/"/>
+            <div className='flex flex-col justify-center'>
+              <p className='font-bold text-green-600 uppercase'>Lorem ipsum dolor sit</p>
+              <h1 className='md:text-4xl sm:text-2xl text-2xl font-bold py-2 uppercase'>Lorem ipsum dolor sit amet</h1>
+              <p className='text-gray-600'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti distinctio obcaecati laboriosam beatae. Error tenetur, illo qui ipsa earum magnam sunt corporis ipsam et explicabo amet doloribus sed, aliquid animi.</p>
+
+              <button className='bg-gray-500 rounded-md py-3 w-[200px] mx-auto my-5 text-white font-medium'>Get Started</button>
+            </div>
         </div>
     </div>
   )

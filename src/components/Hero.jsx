@@ -11,7 +11,7 @@ const Hero = () => {
             <div className='flex justify-center items-center'>
                 <p className='md:text-4xl sm:text-4xl text-xl font-bold'>Lorem ipsum dolor sit</p>
                 <Typed
-                className='md:text-4xl sm:text-4xl text-xl font-bold pl-1 text-gray-500'
+                className='md:text-4xl sm:text-4xl text-xl font-bold pl-1 text-gray-400'
                 strings={['Developer.','Designer.','Data Analyst.']}
                 typeSpeed={100}
                 backSpeed={40}
@@ -19,7 +19,7 @@ const Hero = () => {
             />
             </div>
             <p className='md:text-2xl text-xl font-bold text-green-600'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <button className='bg-gray-600 w-[200px] rounded-md mx-auto py-3 my-5 font-medium'>Get Started</button>
+            <button className='bg-gray-500 w-[200px] rounded-md mx-auto py-3 my-5 font-medium'>Get Started</button>
         </div>
     </div>
   )
